@@ -1,0 +1,30 @@
+.background__image {
+  height: 700px;
+  background-image: url("../assets//Images/backgroundimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  background-position: center;
+}
+.width_400 {
+  min-height: 200px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
+}
+.web {
+  display: block;
+}
+.mbl {
+  display: none;
+}
+@media screen and (max-device-width: 768px) {
+  .web {
+    display: none;
+  }
+  .mbl {
+    display: block;
+    font-size: 40px !important;
+    line-height: 48px !important;
+  }
+}

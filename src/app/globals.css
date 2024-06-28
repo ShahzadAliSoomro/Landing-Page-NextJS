@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Univers LT Std";
+  src: url("../../public/fonts/Univers-Bold.woff2") format("woff2"),
+    url("../../public//fonts/Univers-LightOblique.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Universe Bold", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+.border-radius5 {
+  border-radius: 5px;
+}
+.border-radius10 {
+  border-radius: 10px;
+}
+.text-4xl {
+  font-size: 50px;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+.margin-top-10 {
+  margin-top: 10px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-30 {
+  margin-top: 30px;
+}
+.white {
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

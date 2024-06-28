@@ -1,0 +1,18 @@
+.footer_background {
+  background-image: url("../assets//Images/handfollwer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Submit_btn {
+  color: black;
+  background-color: white;
+}
+.Submit_btn:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.658);
+}
+.mantine-Input-input {
+  background-color: black !important;
+  border: 1px solid transparent !important;
+  color: white !important;
+}
