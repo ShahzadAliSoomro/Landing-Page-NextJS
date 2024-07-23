@@ -11,7 +11,7 @@ export default function Footer() {
     message: "",
   });
 
-  const [loading, setLoading] = useState(false); // Loading state
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
