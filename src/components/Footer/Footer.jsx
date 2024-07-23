@@ -22,7 +22,7 @@ export default function Footer() {
   };
 
   const handleSubmit = async () => {
-    setLoading(true); // Set loading to true when the submit button is clicked
+    setLoading(true);
     try {
       const response = await axios.post(
         `${process.env.REACT_APP_API_URL}/contact-form`,
